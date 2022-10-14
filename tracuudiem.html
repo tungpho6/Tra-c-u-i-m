@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8" />
+        <title>Tra cứu điểm</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap" rel="stylesheet"></head>
+<body>
+<link rel="stylesheet" href="styles.css">
+<!--this is the header section-->  
+<div class="header-container">
+    <div class="image-section">
+    <a class="link" href=""><img class="logo-UTC" src="images/download.png" alt="">
+    </a>
+    </div>
+    <div class="middle-section">
+    <div class="contact-language">
+      &#10088;&#43;&#10089;&#10072; contact:123-456-7890 
+      <img class="Languages" src="images/England.png" alt="">
+      <img class="Languages" src="images/Flag_of_North_Vietnam_(1955–1976).svg.webp" alt="">
+    </div>
+    <div class="seacrh-bar-container">
+    <input class="search-bar" type="text" placeholder="Tìm kiếm">
+    <button class="Search-button">
+    <img class="Search-icon" src="images/search.svg" alt="">
+    </button>
+    </div>
+    </div>
+    <div class="final-section">
+    <button class="Login">
+    <a style="text-decoration:none;" href="https://tungpho6.github.io/Project-front-end/Loginpage.html?fbclid=IwAR2Qv7NTcdB8lSJ9h7juJOdQPA8og9wgWFgG6lxMfZaO0vKcxk33jndMnEY">Login</a>
+    </button>
+    <button class="Sign-in">
+    Đăng ký học
+    </button>
+    </div>
+</div>
+    <!--end of the header!-->   
+	<!--this is the sidebar-->
+<div class="Side-bar-container">
+    <button class="Task-button">
+    <a style="color:lightpink; text-decoration: none;" href="/Project-front-end/Home/Home.html">Home</a>
+    </button>
+    <button class="Task-button">
+    <a style="color:lightpink; text-decoration: none;" href="https://tuyensinh.utc.edu.vn/">Tuyển sinh đại học</a>  
+    </button>
+    <button class="Task-button">
+      <a style="color:lightpink; ;text-decoration: none;"href="https://www.utc.edu.vn/sau-dai-hoc">Tuyển sinh sau đại học</a>
+    </button>
+    <button class="Task-button">
+      <a style="color:lightpink; ;text-decoration: none;" href="https://www.utc.edu.vn/tin-tuc">Tin tức- Sự kiện</a>
+    </button>
+    <button class="Task-button">
+      <a style="color:lightpink; ;text-decoration: none;" href="">Hỏi đáp</a>
+    </button>
+    <button class="Task-button">
+      <a style="color:lightpink; text-decoration: none;" href="">Liên hệ</a>
+    </button>
+    <button class="Task-button">
+      <a style="color:lightpink; ;text-decoration: none;" href="http://www.phandonghai-jenskitchen1.epizy.com/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn/%C4%90%C4%83ng%20nh%E1%BA%ADp.html?i=1&utm_source=zalo&utm_medium=zalo&utm_campaign=zalo">Tra cứu điểm</a>
+    </button>
+    <button class="Task-button">
+      <a style="color:lightpink; ;text-decoration: none;" href="">About us</a>
+    </button>
+</div>
+<!--End of the side bar-->
+<!--this is the body-->
+<section class="Section-container">
+<div id="tracuu" class="tracuu">
+<form name="tra_cuu">
+    <h1 style="border: medium"> Tra cứu điểm đại học</h1>
+    <label for="name">Nhập mã sinh viên</label><br>
+    <input id="ma_sinh_vien" name="ma_sinh_vien" type="text" value=""><br>
+    <input type="submit" name="submit" id="submit" value="Tra cứu" onclick="MarksManagement();" />
+	<script language="javascript">
+       
+        
+        function MarksManagement (){
+        let inputbar = document.getElementById('ma_sinh_vien'); 
+        let ShowMarks = document.createElement('div');
+        let ele1 = document.getElementById('tracuu');
+        if (inputbar.value == 211210244){
+            ShowMarks.innerText = "Toán:9" + " " + " Anh: 9.2 " + "" + " Lý:7.5 ";
+            }
+        else if (inputbar.value == 211210244){
+            ShowMarks.innerText = "Toán:9" + " " + " Anh: 9.2 " + "" + " Lý:7.5 ";
+            }
+        else{
+        alert("Error: Điểm của bạn chưa có trong hệ thông hoặc chưa đc sử lý vui lòng thử lại sau hoặc cập nhật tại quản lý điểm :vv");    
+        };
+        ele1.appendChild(ShowMarks); 
+    }
+    </script>
+</form>
+
+</div>
+</section>
+<!--this is the footer-->    
+<footer class="footer-container">
+   <div class="footer-left-section">
+    <img class="logo-footer" src="Images/Logo-Dai-Hoc-Giao-Thong-Van-Tai-UTC.webp" alt="">
+   </div>
+   
+   
+    <div class="footer-middle-section">
+    <ul class="Directions">
+       <li>Xem video hướng dẫn tra cứu điểm <a class="linked" style="text-decoration:none" href="">tại đây</a></li> 
+       <li>Hỏi đáp và thắc mắc <a class="linked" href="">tại đây</a> </li>
+       <li>Contact us:123-4567-890</li>
+       <li>Địa chỉ: phố Cầu Giấy, P.Láng Thượng, Q.Đống Đa, Hà Nội.
+        Điện thoại: (84.24) 37663311 - Fax: (84.24)37669613</li>
+    </ul>
+</div>                
+<div class="footer-last-section">
+    <p style="font-size: 20px; margin-left: 20px;">Site Map</p>
+    <ul class="Directions">
+        <li><a class="linked" href="https://tungpho6.github.io/Home-page/Home.html">Trang chủ</a></li>
+        <li><a class="linked"  href="">Tra cứu điểm</a>  </li>
+        <li><a class="linked" href="">Đăng nhập</a> </li>
+        <li><a class="linked" href="">About us</a> </li>
+    </ul>
+    
+</div>         
+</footer>
+</body>
+</html>
+
+	
+	
+	
+	

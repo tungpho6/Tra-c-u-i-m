@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+}
+
+header .sign_left{
+width: 150px;
+float: left;
+text-align: left;
+}
+
+nav {
+float: none;
+text-align: center;
+color: black;
+background-color: gold;
+height: auto;
+}
+.sign_right h1{
+	padding: 20px;
+	float: left;
+	text-align: left;
+	
+}
+.topnav a{
+	font-size: 30px;
+	list-style: none;
+  display: inline;
+  padding: 0 40px 0 40px;
+	text-decoration: none;
+	color:darkred;
+}
+.topnav a:hover{
+	border: 0px;
+	background-color:darkgoldenrod; 
+}
+.topnav a.active
+section {
+width:500px;
+height: 500px;
+float:left;
+padding:10px;
+}
+footer {
+background-color:#707070;
+color:white;
+clear:both;
+text-align:left;
+padding:5px;
+width: auto;
+height: 130px;
+margin: 0 auto;
+}
+#foot-left{
+	font-size: 21px;
+	background-color:#707070;
+	width: 1100px;
+	height: 100px;
+	float: left;	
+}
+#foot-left a{
+	list-style: none;
+    display: inline;
+	text-decoration: none;
+}
+#foot-right{
+	font-size: 21px;
+	background-color:#707070;
+	width: auto;
+	float: center;
+	text-align: left;
+}
+section .tracuu{
+	width: 30%;
+	height: 18%;
+	left: 35%;
+	position: absolute;
+	top: 55%;
+	margin: 0px auto;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 30px;
+}
+.row{
+	width: 40%;
+	margin: auto;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+ 
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+input[type=submit]:hover {
+    background-color: #45a049;
+
+	}
+.alert{
+	font-size: 21px;}
+label{
+	font-size: 21px;
+}
+.hk{
+	width: 100%;
+}
+section {
+	background-image: url("Images/pngtree-student-union-recruits-new-poster-background-material-image_171929.jpg");
+	height: 1000px;
+	
+	background-size: cover;
+
+}
+.header-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-width: 1px;
+	border-style: solid;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+	background-color: rgb(129, 170, 206);
+	height: 86px;
+
+	}
+	.contact-language{
+	font-size: 12px;
+	margin-left: 10px;
+	}
+	.search-bar{
+	margin-left: 10px;  
+	margin-top: 10px;
+	}
+	.Languages{
+	width: 20px;
+	height: 10px;  
+	}
+	.Search-button{
+	width: 45px;
+	height: 33px;  
+	margin-top: 4px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+	border-radius: 8px ;  
+	margin-right: 5px;
+	cursor: pointer;
+	}
+	.Search-button:hover{
+	background-color: rgb(255, 255, 163);  
+	}
+	.Search-button:active{
+		background-color: rgb(122, 122, 244);
+	}
+	.seacrh-bar-container{
+	display: flex;
+	flex-direction: row;  
+	height: 50px ;
+	}
+	.Search-icon{
+		width: 20px;
+		height: 20px;
+	}
+	.middle-section{
+	margin-left: 20px;  
+	width: 500px;
+	}
+	.final-section{
+	width: 400px;  
+	
+	}
+	.Login,.Sign-in{
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+	}
+	.Login:hover,.Sign-in:hover{
+		background-color: rgb(255, 255, 163);   
+		color: rgb(122, 122, 244);
+	}
+	.search-bar::placeholder{
+	padding-left: 20px;
+	}
+	.search-bar{
+	border-radius: 8px ;  
+	}
+	.Side-bar-container{
+		position: relative;
+		left: 0px;
+		right: 0px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		height:50px;
+		background-color: white;
+		}
+		.Task-button{
+		width: 120px;
+		box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+		cursor: pointer;
+		background-color: rgb(91, 91, 91);
+		color: white;
+		border: none;
+		font-family: Garamond;
+		}
+		.Task-button:hover{
+			color: rgb(255, 255, 163);   
+			background-color:  rgb(162, 212, 255);
+		}
+		.Task-button:active{
+			background-color: rgb(255, 255, 163);   
+			color: rgb(122, 122, 244);
+		}
+		body{
+			background-image:url("Images/background-ban-hoc-tap-dep_090656614.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			height: 0px;	
+			z-index: 0;
+		}
+		.footer-container{
+		background-color: rgb(96, 154, 204);	
+		}
+		.footer-container{
+		display: flex;
+		flex-direction: row;	
+		height: 200px;
+		}
+		.Directions{
+		font-size: 20px;	
+		}
+		.footer-middle-section{
+		width: 400px;	
+		}
+		.logo-footer{
+		width: 150px;	
+		padding-top: 20px;
+	}
+	.footer-last-section{
+	width: 200px;	
+	}
+	.linked{
+		text-decoration: none ;
+		color: white;
+	}
+	
